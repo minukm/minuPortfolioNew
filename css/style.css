@@ -251,7 +251,7 @@ body, html {
     height: 100%;
     overflow: hidden;
 }*/
-.spinner{
+/*.spinner{
     width: 80px;
     height: 80px;
     position: absolute;
@@ -263,8 +263,8 @@ body, html {
     border-top: 3px solid #f25a41;
     border-radius: 100%;
     animation: spin 1s infinite linear;
-}
-/*.spinner2{
+}*/
+.spinner2{
   width: 80px;
   height: 80px;
   position: absolute;
@@ -273,15 +273,15 @@ body, html {
   right:0;
   bottom:0;
   margin:auto;
-}*/
-@keyframes spin{
+}
+/*@keyframes spin{
     from{
         transform: rotate(0deg);
     }
     to{
         transform: rotate(360deg);
     }
-}
+}*/
 #overlay{
     height: 100%;
     width: 100%;
@@ -291,9 +291,9 @@ body, html {
     top:0;
     z-index: 1000;
 }
-/*@media only screen and (max-device-width:768px){
+@media only screen and (max-device-width:768px){
   .spinner2{
     width: 150px !important;
     height: 150px !important;
   }
-}*/
+}
