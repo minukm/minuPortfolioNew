@@ -1,0 +1,247 @@
+@font-face {
+  font-family: dancing_script;
+  src: url(fonts/dancing-script/dancingscript-regular-webfont.woff2) format('woff2'),url(fonts/dancing-script/dancingscript-regular-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Times New Roman";
+  color: #000;
+  font-size: 20px;
+}
+.row{
+  margin:0;
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000 !important;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  background:rgba(0,0,0,.5);
+  font-size:25px;
+}
+.about_me{
+  color: #000;
+  /*background-color:white;*/
+  text-align:center;
+  /*padding:10px 80px;*/
+  text-align: justify;
+}
+/*h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}*/
+
+/*.welcome_text {
+  position: absolute;
+  top: 32%;
+  font-size: 150px;
+  left: 17%;
+  width: 350px;
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+}*/
+
+.navbar-fixed-top {
+  width: 100%;
+}
+
+.fixed-top {
+  border-color: transparent;
+  background: rgba(225,225,225,.5);
+  margin-bottom: 0;
+  min-height: 40px;
+}
+
+.fixed-top .top_nav {
+  display: inline-block;
+  float: none;
+}
+
+.fixed-top .top_nav li {
+  display: inline-block;
+}
+
+.fixed-top .top_nav li a {
+  text-transform: lowercase;
+  color: #000;
+  text-align: center;
+}
+
+.fixed-top .top_nav li a:focus,.fixed-top .top_nav li a:hover {
+  text-transform: lowercase;
+  color: maroon;
+  font-weight: 700;
+  transition: transform .3s;
+}
+
+.fixed-top .top_nav .active {
+  text-transform: lowercase;
+  color: maroon;
+  font-weight: 700;
+}
+
+.fixed-top .top_nav .links {
+  padding: 10px;
+}
+
+.fixed-top #myNavbar {
+  text-align: right;
+}
+
+.contact_me>h2,  .projects_me>h2 {
+  font-size: 40px;
+}
+
+.project_img img{
+  cursor: pointer;
+    border:4px solid #fff;
+}
+.work_img img{
+    cursor: pointer;
+    height:180px;
+    border:4px solid #fff;
+}
+.work_me{
+
+}
+.underline {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000;
+}
+
+
+.nav_separator {
+  border-bottom: .1em solid maroon;
+  margin: 0 13px;
+  border-top: rgba(234,239,229,.5);
+}
+
+.sections {
+  min-height: 500px;
+  background-color: #fff;
+  text-align: justify;
+}
+
+.contact_me .comments {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  resize: none;
+  font-size: 14px;
+}
+
+.contact_me .comments::-webkit-input-placeholder {
+  color: #999;
+}
+
+.contact_me .submit_btn {
+  background-color: maroon;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+.contact_me_outer{
+  text-align:center;
+  /*padding:50px 80px;*/
+  text-align: justify;
+}
+
+.all_inner{
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;*/
+    background: rgba(225,225,225,0.4);
+    opacity: 0.85;
+}
+#work{
+  min-height: 650px;
+}
+.my_contacts_info {
+  border-left: 1px solid maroon;
+  padding-left: 20px;
+  margin-top: 115px;
+}
+
+.my_credentials label {
+  display: block;
+  padding: 20px 0;
+  padding-bottom: 0;
+}
+
+.my_credentials span {
+  font-size: 18px;
+  color: maroon;
+}
+
+.my_credentials a {
+  color: maroon;
+}
+
+.my_credentials a:hover {
+  text-decoration: none;
+}
+
+.jumbo2 {
+  height: 600px;
+  background-color: #fff;
+}
+
+.see_more {
+  text-align: center;
+}
+
+.see_more a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.see_more .see_more_btn {
+  background-color: maroon;
+  font-size: 20px;
+}
+
+.see_more .see_more_btn:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+/* Turn off parallax scrolling for tablets and phones */
+/*@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}*/
