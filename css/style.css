@@ -293,3 +293,9 @@ body, html {
     top:0;
     z-index: 1000;
 }
+@media only screen and (max-device-width:768px){
+  .spinner2{
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
